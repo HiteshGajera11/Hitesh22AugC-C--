@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form Using Html and CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<b><h1 align="center">Individual Registration</h1>
+	<form>
+		<h3>User Perticular</h3><br><br>
+		<table align="center">
+			<tr>
+				<td>Login id : </td><td><input type="text" name="Login" required></td>
+			</tr>
+			<tr>
+				<td>Password : </td><td><input type="password" name="password" required></td>
+			</tr>
+			<tr>
+				<td>Confirm Password : </td><td><input type="password" name="password" required></td>
+			</tr>
+		</table>
+		
+		<h3>Personal Perticular</h3>
+		<table align="center">
+			<tr>
+				<td>Selutation : </td> 
+				<td>
+				<select required>
+					<option>---Select---</option>
+					<option>Mr.</option>
+					<option>Mrs.</option>
+					<option>Miss.</option>
+				</select>
+				</td>
+				<td>&emsp;&emsp;&emsp;&emsp;&emsp;First Name :  </td>
+				<td><input type="text" name="fname" required></td>
+			</tr>
+			<tr>
+				<td>Middle Name : </td> 
+				<td><input type="text" name="mname"></td>
+				<td>&emsp;&emsp;&emsp;&emsp;&emsp;Last Name :  </td>
+				<td><input type="text" name="lname" required></td>
+			</tr>
+			<tr>
+				<td>Resident Status : </td> 
+				<td>
+				<select required>
+					<option>---Select---</option>
+					<option>Self Owned</option>
+					<option>Owned by Relative</option>
+					<option>Rented</option>
+					<option>PG/Hostel</option>
+				</select>
+				</td>
+				<td>&emsp;&emsp;&emsp;&emsp;&emsp;Country : </td> 
+				<td>
+				<select required>
+					<option>---Select---</option>
+					<option>India</option>
+					<option>USA</option>
+					<option>Canada</option>
+					<option>UK</option>
+					<option>Australia</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Email Id : </td> 
+				<td><input type="text" name="Email" id="Email" required></td>
+				<td>&emsp;&emsp;&emsp;&emsp;&emsp;Mobile No. :  </td>
+				<td><input type="text" name="Mobile" required></td>
+			</tr>
+		</table>
+		<h3>Account Particulars</h3>
+		<table align="center" >
+			<tr>
+				<td>15 Digit Account No. : </td> 
+				<td><input type="text" name="Accountno" required></td>
+				<td>&emsp;&emsp;&emsp;&emsp;&emsp;Nick Name. :  </td>
+				<td><input type="text" name="Nickname"></td>
+			</tr>
+			<tr>
+				<td>Fund Transfer : </td>
+			<td>
+				<select required>
+					<option>---Select---</option>
+					<option>IMPS</option>
+					<option>RTGS</option>
+					<option>UPI</option>
+				</select>
+			</td>
+			</tr>
+		</table>
+		<h3>DECLARATION : </h3>
+		<p>I have read,understood and here by agree to the Terms and Conditions in Respect of all Products and Channels . <br><br>I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches, I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivores(s) under his/her joint name respectively. I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.</p>
+			<br><br>
+
+		<div align="center">
+			<input type="submit" name="Registration" value="Submit" id="submit">&emsp;&emsp;&emsp;
+			<input type="reset" name="Reset" value="Reset" id="reset">
+		</div>
+
+
+		</b>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: lightblue;
+}
+h1 {
+	color: darkred;
+	background-color: whitesmoke;
+}
+
+
+h3 {
+	color: darkred;
+}
+
+#submit {
+	background-color: lightskyblue;
+}
+
+#reset {
+	background-color: lightskyblue;
+}
